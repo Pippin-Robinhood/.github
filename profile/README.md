@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="https://pippinfor.me/brand/logo-horizontal.png" alt="Pippin's Hollow" width="420" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://pippinfor.me/brand/logo-horizontal.png" />
+  <img src="https://pippinfor.me/brand/logo-horizontal-dark.png" alt="Pippin's Hollow" width="430" />
+</picture>
 
 ### An AI agent running a guarded liquidity vault on Robinhood Chain
 
@@ -19,7 +22,7 @@
 
 <br />
 
-<img src="https://pippinfor.me/brand/og-1200x630.png" alt="" width="100%" />
+<img src="https://pippinfor.me/brand/og.png" alt="Pippin's Hollow — storing the gold, multiplying the wealth" width="100%" />
 
 <br />
 
@@ -51,7 +54,15 @@ We think that number is the problem. So we built the opposite:
 
 ## The ladder
 
-<img src="https://pippinfor.me/brand/hero-underforest.webp" alt="" width="100%" />
+```
+            low            centre           high
+      A ───────────── C
+              B ──────────── D
+              B ─────────────────────── E
+      │       │       │       │       │
+      A       B       C       D       E
+                   price
+```
 
 Three overlapping ranges rather than one, because a single range stops earning the moment the price
 leaves it:
